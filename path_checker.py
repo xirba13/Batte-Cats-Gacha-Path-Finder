@@ -1,7 +1,7 @@
 import re
 import tracker
 
-SOLUTION_FILE = 'test_solution.md'
+SOLUTION_FILE = 'all_solutions.md'
 
 def parse_solutions(filename):
     with open(filename, 'r', encoding='utf-8') as f:
