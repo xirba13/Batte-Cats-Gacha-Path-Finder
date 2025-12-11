@@ -14,7 +14,7 @@
 - 🎰 **Guaranteed 11-Draw** on **Banner 2** at 44A. **(🎯 TARGETS: The 9th Angel)**
     > Full Draw: Wushu Cat, Welterweight Cat, Nymph Cat, Cat Toaster, Viking Cat, Welterweight Cat, Gardener Cat, Rover Cat, Figure Skating Cats, Wheel Cat + **The 9th Angel**
 - 🎫 **Roll 1** on **Banner 2** (54B → 55B) | Got: Rei Cat
-- 🎫 **Roll 1** on **Banner 1 o 2** (55B → 56B) | Got: Rei Ayanami o Mari Illustrious
+- 🎫 **Roll 1** on **Banner 1** (55B → 56B) | Got: Rei Ayanami
 - 🎰 **Guaranteed 11-Draw** on **Banner 4** at 56B.
     > Full Draw: Jurassic Cat, Hip Hop Cat, Swordsman Cat, Witch Cat, Welterweight Cat, Tin Cat, Wheel Cat, Wushu Cat, Shaman Cat, Welterweight Cat + **Gravi**
 - 🎫 **Roll 1** on **Banner 5** (67A → 68A) | Got: Izanami of Dusk **(🎯 TARGET!)**
