@@ -1,4 +1,4 @@
-# Battle-Cats-Gacha-Path-Finder
+# Battle Cats Gacha Path Finder
 
 A Python tool, made with Gemini's help, that calculates the optimal rolling path to obtain specific target units in The Battle Cats using seed tracking data. It explores possibilities across multiple banners, handling track switching and guaranteed draws.
 
