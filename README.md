@@ -1,6 +1,6 @@
 # Battle-Cats-Gacha-Path-Finder
 
-A Python tool, made with Gemini's help, that calculates the optimal rolling path to obtain specific target units in The Battle Cats using seed tracking data. It uses multiprocessing to efficiently explore possibilities across multiple banners, handling track switching and guaranteed draws.
+A Python tool, made with Gemini's help, that calculates the optimal rolling path to obtain specific target units in The Battle Cats using seed tracking data. It explores possibilities across multiple banners, handling track switching and guaranteed draws.
 
 
 ## 🚀 Features
@@ -9,12 +9,11 @@ A Python tool, made with Gemini's help, that calculates the optimal rolling path
 * **Track Switching Logic:** Accounts for track switches caused by guaranteed 11-draws or duplicate rares.
 * **Resource Optimization:** Prioritizes paths that use fewer resources (Rare Tickets and Cat Food).
 * **Configurable Limits:** Allows you to limit the number of rolls on specific banners (e.g., limiting a Legend Ticket banner to 1 action).
-* **Multiprocessing:** Utilizes CPU cores to search for solutions faster.
 
 
 ## 📋 Prerequisites
 
-* Python 3.x
+* Python 3.x (I used Python 3.14.0)
 * No external libraries required.
 
 
@@ -27,7 +26,7 @@ A Python tool, made with Gemini's help, that calculates the optimal rolling path
 4. Delete the example data and paste your copied HTML into the file named **`data.txt`** in the same directory as the script.
 
 ### 2. Configure the Script
-Open the Python script (`tracker_no_threads.py` or `tracker_threads_optimized.py`) and modify the **Configuration** section at the top:
+Open the Python script (`tracker.py`) and modify the **Configuration** section at the top:
 
 * **Target Units:** Update the `TARGET_UBERS` set.
     * *Note:* You must use the **EXACT** names as they appear on the godfat website.
@@ -48,20 +47,14 @@ Open the Python script (`tracker_no_threads.py` or `tracker_threads_optimized.py
     ```
 
 * **Performance Tuning:**
-    * **Low-End PCs:** If your computer has limited resources or the script freezes, **lower** the values of `MAX_SEARCH_STEPS` (e.g., to 5000) and `MAX_SOLUTIONS_PER_WORKER` or use `tracker_no_threads.py`.
+    * **Low-End PCs:** If your computer has limited resources or the script freezes, **lower** the values of `MAX_SEARCH_STEPS` (e.g., to 20000) and `MAX_SOLUTIONS`.
     * **High-End PCs:** If you have a powerful CPU, you can **increase** these values to calculate deeper paths and find more complex solutions.
 
 ### 3. Run the Script
 Execute the script via terminal:
 
 ```bash
-python tracker_no_threads.py
-```
-
-or if you used the multithreaded option:
-
-```bash
-python tracker_threads_optimized.py
+python tracker.py
 ```
 
 
@@ -70,7 +63,7 @@ python tracker_threads_optimized.py
 **This tool is experimental and NOT fully tested.** While the logic simulates the tracking mechanics, edge cases (especially involving complex track switches with duplicate rares) might differ slightly from the game.
 
 **🔴 CRITICAL:**
-Always **manually cross-reference** the path calculated by this tool with the [Godfat Seed Tracker](https://bc.godfat.org) website before spending any in-game resources (Cat Food or Tickets). 
+Always **manually check** the path calculated by this tool with the [Godfat Seed Tracker](https://bc.godfat.org) website before spending any in-game resources (Cat Food or Tickets). 
 
 * **Do not follow the instructions blindly.**
 * The author is not responsible for any wasted resources due to calculation errors.
